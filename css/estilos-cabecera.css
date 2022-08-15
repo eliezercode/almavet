@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* CSS Document */
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+.main {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.slides {
+	width: 100%;
+	max-height: 100%;
+}
+
+.slides img {
+	width: 100%;
+	max-height: 100%;
+}
+
+.slidesjs-pagination {
+	margin: 0;
+	background: #F60;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	font: Verdana, Geneva, sans-serif;
+	font-size: small;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li {
+	float: left;
+}
+
+.slidesjs-pagination li a {
+	padding: 5px 10px;
+	color: #fff;
+}
+
+.slidesjs-pagination li a:hover {
+	background: #F00;
+}
+
+.slides .active {
+	background: #F00;
+}
+
+.slidesjs-navigation {
+	background: #006;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
+
+.slides li {
+	padding: 0px;
+
+}
